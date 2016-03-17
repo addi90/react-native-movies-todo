@@ -6,7 +6,10 @@
     "start": "node node_modules/react-native/local-cli/cli.js start"
   },
   "dependencies": {
-    "react-native": "^0.21.0",
-    "react-native-material-design": "^0.3.3"
+    "@remobile/react-native-splashscreen": "^1.0.3",
+    "alt": "^0.18.2",
+    "react-native": "0.22.0-rc",
+    "react-native-material-design": "^0.3.3",
+    "fbjs": "0.6.1"
   }
 }

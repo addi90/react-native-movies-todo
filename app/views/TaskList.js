@@ -12,7 +12,7 @@ import { Checkbox } from 'react-native-material-design';
 
 const REQUEST_ENDPOINT = 'http://api.rottentomatoes.com/api/public/v1.0/lists/movies/in_theaters.json?apikey=7waqfqbprs7pajbz28mqf6vz&page_limit=50';
 
-export default class MoviesTodo extends Component {
+export default class TaskList extends Component {
   constructor (props) {
     super(props);
     this.state = {
